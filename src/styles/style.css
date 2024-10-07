@@ -1,0 +1,26 @@
+
+.label-style{
+    @apply block text-gray-700 text-left
+}
+
+.header-style{
+    @apply  h-20  rounded-md bg-black mr-10 ml-10 mb-4 mt-4 
+}
+
+.base-background-style{
+    @apply  flex flex-col justify-center items-center bg-gray-100 ml-10 mr-10
+}
+
+/* .otp-box {
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  } */
+  
+  /* Change the border color when input is focused */
+  .otp-box:focus {
+    border-color: #007bff;
+  }
